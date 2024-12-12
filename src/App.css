@@ -1,3 +1,168 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+@media (max-width: 412px) {
+    .login{
+
+        width: 90vw;
+    }
+    
+    .login .h{
+        font-size: 9vw;
+        /* background-color: black; */
+    }
+    .login > h1{
+        font-size: 11vw;
+        text-align: center;
+    }
+    .login input{
+        width: 70vw;
+        /* padding: 0px; */
+    }
+
+  }
+
+
+  @media (max-width: 784px) {
+  .addtask{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+  }
+    .form{
+        flex-direction: column;
+       justify-content: space-between;
+       align-items: center;
+       gap: 5vh;
+       padding: 5px;
+    }
+    .form input{
+        width: 50vw;
+    }
+    .form textarea{
+        width: 50vw;
+    }
+    .form button{
+        width: 30vw;
+    }
+  }
+
+
+  @media (max-width: 378px) {
+   
+      .form input{
+          width: 70vw;
+      }
+      .form textarea{
+          width: 70vw;
+      }
+      .form button{
+          width: 40vw;
+      }
+    }
+
+
+
+
+
+  @media (max-width: 410px) {
+   .nav img{
+    display: none;
+   }
+   .nav button{
+    padding :2vw;
+    font-size: 5vw;
+   }
+  }
+  @media (max-width: 268px) {
+    .nav div h1{
+     display: none;
+    }
+
+    }
+   
+    @media (max-width: 780px) {
+     .rep h1{
+        font-size: 3vw;
+     }
+    
+        }
+
+        @media (max-width: 380px) {
+            .rep h1{
+               font-size: 3.2vw;
+            }
+           
+               }
+
+
+               @media (max-width: 1338px) {
+                .boxes div h1{
+                    font-size: 3vw;
+                    
+                }
+                .boxes div{
+                    min-width: 20vw;
+                  
+                }
+               
+                   }
+
+
+                   @media (max-width: 516px) {
+                    .mainbox{
+                        padding: 5vh 0px;
+                        min-height: 40%;
+
+                    }
+                    .boxes div h1{
+                        font-size: 6vw;
+                        
+                    }
+                    .boxes div{
+                        min-width: 70vw;
+                        min-height: 30vh;
+                        padding: 0px 5px;
+                    }
+
+                    .boxes{
+                        flex-direction: column;
+                        gap: 5vh;
+                    }
+                   
+                       }
+
+                       @media (max-width: 242px) {
+                        .boxes div h1{
+                            font-size: 9vw;
+                            
+                        }}
+
+
+
+
+
+
+
+
+
+                        @media (max-width: 466px) {
+                            .list {
+                                font-size:3vw ;
+                                width: 80vw;
+                            }
+                            .listparent{
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                
+                            }
+                                
+                            }
+                    

@@ -39,11 +39,11 @@ function TaskList() {
 
             {Array.isArray(tasks) ? tasks.map((item, idx) => {
                 return (
-                    <div key={idx} className='border-2 flex-shrink-0 bg-slate-200 p-5 flex flex-col h-[70%] w-[33%] rounded-md justify-between'>
+                    <div key={idx} className=' list border-2 flex-shrink-0 bg-slate-200 p-5 flex flex-col h-[70%] min-[33%] rounded-md justify-between'>
                         <div className='flex justify-between '>
                             <div >
-                                <h1 className='text-2xl pb-2'>{item.tasktitle}</h1>
-                                <h1>{item.taskdescription}</h1>
+                                <h1 className=' head text-2xl pb-2'>{item.tasktitle}</h1>
+                                <h1 className='des'>{item.taskdescription}</h1>
                             </div>
                             <h1 className='text-red-600 font-bold'>{item.duedate}</h1>
                         </div>

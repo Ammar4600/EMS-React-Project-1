@@ -17,7 +17,7 @@ function Navbar() {
   dispatch(logoutHandle())  
   }
   return (
-    <div className='h-[12%] flex justify-between items-center p-8 bg-sky-950'>
+    <div className='nav h-[12%] flex justify-between items-center p-8 bg-sky-950'>
         <h1 className='text-2xl text-yellow-50'>EMS</h1>
         <div className='flex justify-between items-center gap-5'>
           <h1 className='text-yellow-50'>{data.name}</h1>

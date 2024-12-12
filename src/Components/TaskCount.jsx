@@ -18,9 +18,9 @@ function TaskCount() {
   
 
   return (
-    <div className=' h-[40%] w-full bg-slate-50 flex '>
-      <div className='flex justify-around items-center w-full'>
-        <div className='bg-yellow-300  h-[75%] w-[17%] p-5 rounded-md flex flex-col items-center gap-7 justify-center'>
+    <div className=' mainbox min-[40%] w-full bg-slate-50 flex '>
+      <div className='boxes flex justify-around items-center w-full'>
+        <div className='bg-yellow-300  h-[75%]  w-[17%] p-20 rounded-md flex flex-col items-center gap-7 justify-center'>
             <h1 className='text-4xl font-bold text-blue-950 '>Completed</h1>
             <h1 className='text-3xl font-bold  text-blue-600'>{user.completed}</h1>
         </div>
